@@ -1,0 +1,246 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "🐾 La Patita Pet" [ref=e4] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e5]: 🐾
+        - generic [ref=e6]: La Patita Pet
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Inicio" [ref=e9] [cursor=pointer]:
+            - /url: "#inicio"
+        - listitem [ref=e10]:
+          - link "Servicios" [ref=e11] [cursor=pointer]:
+            - /url: "#servicios"
+        - listitem [ref=e12]:
+          - link "Reservas" [ref=e13] [cursor=pointer]:
+            - /url: "#reservas"
+        - listitem [ref=e14]:
+          - link "Nosotros" [ref=e15] [cursor=pointer]:
+            - /url: "#nosotros"
+        - listitem [ref=e16]:
+          - link "Contacto" [ref=e17] [cursor=pointer]:
+            - /url: "#contacto"
+      - link "🐶 Reserva ahora" [ref=e18] [cursor=pointer]:
+        - /url: "#reservas"
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e24]: 🐾 Peluquería Canina & Felina
+          - heading "Tu mascota merece lo mejor" [level=1] [ref=e25]:
+            - text: Tu mascota
+            - generic [ref=e26]: merece
+            - text: lo mejor
+          - paragraph [ref=e27]:
+            - text: Corte profesional, baño rejuvenecedor, secado y cuidado completo de higiene.
+            - strong [ref=e28]: Porque ellos nos dan todo.
+          - generic [ref=e29]:
+            - link "📅 Reserva tu cita" [ref=e30] [cursor=pointer]:
+              - /url: "#reservas"
+            - link "Ver servicios →" [ref=e31] [cursor=pointer]:
+              - /url: "#servicios"
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]: ⭐
+              - generic [ref=e35]: 5.0 rating
+            - generic [ref=e36]:
+              - generic [ref=e37]: 🐕
+              - generic [ref=e38]: +500 mascotas
+            - generic [ref=e39]:
+              - generic [ref=e40]: 🏆
+              - generic [ref=e41]: 5 años de exp.
+        - generic [ref=e42]:
+          - generic [ref=e45]: 🐶
+          - generic: ✨
+          - generic: ⭐
+          - generic: ✨
+          - generic: 🌸
+          - generic: 💫
+          - generic: 🎀
+          - generic: ⭐
+          - generic [ref=e46]:
+            - generic [ref=e47]: ✂️
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Servicio completo
+              - paragraph [ref=e50]: Baño + Corte + Higiene
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: Calificación
+            - generic [ref=e53]:
+              - generic [ref=e54]: ★
+              - generic [ref=e55]: ★
+              - generic [ref=e56]: ★
+              - generic [ref=e57]: ★
+              - generic [ref=e58]: ★
+              - generic [ref=e59]: "5.0"
+      - generic:
+        - img
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: ✨ Nuestros Servicios
+        - heading "Cuidado completo para tu mascota" [level=2] [ref=e64]
+        - paragraph [ref=e65]: Cada servicio está diseñado para que tu peludo salga feliz, limpio y más hermoso que nunca.
+      - generic [ref=e66]:
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 🛁
+            - generic [ref=e70]: Baño & Brillo
+          - paragraph [ref=e71]: Baño con productos premium, masaje relajante y aclarado perfecto.
+        - generic [ref=e72] [cursor=pointer]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: 💨
+            - generic [ref=e75]: Secado Perfecto
+          - paragraph [ref=e76]: Secado profesional con cepillado suave, dejando el pelaje esponjoso.
+        - generic [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: ✂️
+            - generic [ref=e80]: Corte Estilizado
+          - paragraph [ref=e81]: Corte a tu gusto con estilistas especializados en cada raza.
+        - generic [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: 🐾
+            - generic [ref=e85]: Higiene Integral
+          - paragraph [ref=e86]: Limpieza de oídos, corte de uñas y cuidado bucal incluidos.
+      - link "🐶 Reserva el servicio completo" [ref=e88] [cursor=pointer]:
+        - /url: "#reservas"
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: 🐶 Quiénes somos
+        - heading "Una familia que ama a tus mascotas" [level=2] [ref=e93]
+        - paragraph [ref=e94]: Somos un equipo de estilistas apasionados por el bienestar animal. Cada visita es una experiencia de cuidado, cariño y profesionalismo para tu compañero peludo.
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: 🐩
+            - paragraph [ref=e99]: ¡Aquí podría estar tu foto!
+            - generic [ref=e100]:
+              - paragraph [ref=e101]: Estilistas
+              - paragraph [ref=e102]: Con ❤️ para ellos
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: Desde
+              - paragraph [ref=e105]: 2020 🏡
+          - generic [ref=e106]: 🐾
+          - generic [ref=e107]: 🐾
+          - generic [ref=e108]: 🐾
+        - generic [ref=e109]:
+          - paragraph [ref=e110]:
+            - text: "Nacimos en 2020 con una misión simple:"
+            - strong [ref=e111]: que cada mascota salga más feliz de lo que entró.
+            - text: Nuestras instalaciones son seguras, higiénicas y diseñadas para que tu peludo se sienta cómodo desde el primer momento.
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: 💚
+              - generic [ref=e115]:
+                - heading "Amor por los animales" [level=4] [ref=e116]
+                - paragraph [ref=e117]: Cada mascota es tratada con la misma ternura que le darías tú.
+            - generic [ref=e118]:
+              - generic [ref=e119]: 🧴
+              - generic [ref=e120]:
+                - heading "Productos premium" [level=4] [ref=e121]
+                - paragraph [ref=e122]: Solo usamos productos hipoalergénicos y seguros para tu peludo.
+            - generic [ref=e123]:
+              - generic [ref=e124]: 🕐
+              - generic [ref=e125]:
+                - heading "Puntualidad garantizada" [level=4] [ref=e126]
+                - paragraph [ref=e127]: Respetamos tu tiempo. Tu cita empieza cuando lo acordamos.
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: 🐾
+          - generic [ref=e131]: "+500"
+          - generic [ref=e132]: Mascotas atendidas
+        - generic [ref=e133]:
+          - generic [ref=e134]: ⭐
+          - generic [ref=e135]: 5 ★
+          - generic [ref=e136]: Calificación promedio
+        - generic [ref=e137]:
+          - generic [ref=e138]: 🏆
+          - generic [ref=e139]: 5 años
+          - generic [ref=e140]: De experiencia
+        - generic [ref=e141]:
+          - generic [ref=e142]: ❤️
+          - generic [ref=e143]: 100%
+          - generic [ref=e144]: Amor y dedicación
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]: 📍 Encuéntranos
+        - heading "Visítanos cuando quieras" [level=2] [ref=e149]
+        - paragraph [ref=e150]: Estamos en un lugar fácil de encontrar, con estacionamiento y acceso cómodo para ti y tu mascota.
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - iframe [ref=e154]:
+              - link "Abrir en Maps (se abre en una nueva pestaña)" [ref=f4e4] [cursor=pointer]:
+                - /url: undefined
+                - text: Abrir en Maps
+                - img [ref=f4e6]
+            - generic [ref=e155]:
+              - generic [ref=e156]: 🐾
+              - generic [ref=e157]:
+                - paragraph [ref=e158]: Estamos aquí
+                - paragraph [ref=e159]: La Patita Pet
+          - paragraph [ref=e160]:
+            - text: 💡 Reemplaza las coordenadas en
+            - code [ref=e161]: MapSection.tsx → MAP_EMBED_URL
+            - text: con tu dirección real.
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]: 📍
+            - generic [ref=e165]:
+              - paragraph [ref=e166]: Dirección
+              - paragraph [ref=e167]: "Calle 123 #45-67, Tu Ciudad"
+          - generic [ref=e168]:
+            - generic [ref=e169]: 📞
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: Teléfono
+              - paragraph [ref=e172]: +57 300 000 0000
+          - generic [ref=e173]:
+            - generic [ref=e174]: 🕐
+            - generic [ref=e175]:
+              - paragraph [ref=e176]: Horario
+              - paragraph [ref=e177]: "Lun–Sáb: 8am – 6pm"
+          - generic [ref=e178]:
+            - generic [ref=e179]: 📧
+            - generic [ref=e180]:
+              - paragraph [ref=e181]: Email
+              - paragraph [ref=e182]: hola@lapatitapet.com
+          - link "📅 Reserva tu cita ahora" [ref=e183] [cursor=pointer]:
+            - /url: "#reservas"
+  - contentinfo [ref=e184]:
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - link "🐾 La Patita Pet" [ref=e187] [cursor=pointer]:
+          - /url: "#inicio"
+          - generic [ref=e188]: 🐾
+          - generic [ref=e189]: La Patita Pet
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - link "Servicios" [ref=e192] [cursor=pointer]:
+              - /url: "#servicios"
+          - listitem [ref=e193]:
+            - link "Reservas" [ref=e194] [cursor=pointer]:
+              - /url: "#reservas"
+          - listitem [ref=e195]:
+            - link "Nosotros" [ref=e196] [cursor=pointer]:
+              - /url: "#nosotros"
+          - listitem [ref=e197]:
+            - link "Contacto" [ref=e198] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e199]:
+          - link "Facebook" [ref=e200] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e201]
+          - link "Instagram" [ref=e205] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e206]
+          - link "YouTube" [ref=e210] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e211]
+      - generic [ref=e214]:
+        - paragraph [ref=e215]: © 2025 La Patita Pet. Todos los derechos reservados.
+        - paragraph [ref=e216]:
+          - text: Hecho con
+          - generic [ref=e217]: ❤️
+          - text: para las mascotas
+  - button "Open Next.js Dev Tools" [ref=e223] [cursor=pointer]:
+    - img [ref=e224]
+  - alert [ref=e227]

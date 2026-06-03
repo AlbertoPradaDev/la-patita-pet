@@ -1,0 +1,235 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "🐾 La Patita Pet" [ref=e4] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e5]: 🐾
+        - generic [ref=e6]: La Patita Pet
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Início" [ref=e9] [cursor=pointer]:
+            - /url: "#inicio"
+        - listitem [ref=e10]:
+          - link "Serviços" [ref=e11] [cursor=pointer]:
+            - /url: "#servicios"
+        - listitem [ref=e12]:
+          - link "Sobre Nós" [ref=e13] [cursor=pointer]:
+            - /url: "#nosotros"
+        - listitem [ref=e14]:
+          - link "Contactos" [ref=e15] [cursor=pointer]:
+            - /url: "#contacto"
+      - link "🐶 Reservar agora" [ref=e16] [cursor=pointer]:
+        - /url: "#reservas"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22]: 🐾 Salão Canino & Felino
+          - heading "O seu animal merece o melhor" [level=1] [ref=e23]:
+            - text: O seu animal
+            - generic [ref=e24]: merece
+            - text: o melhor
+          - paragraph [ref=e25]:
+            - text: Corte profissional, banho rejuvenescedor, secagem e cuidado completo de higiene.
+            - strong [ref=e26]: Porque eles dão-nos tudo.
+          - generic [ref=e27]:
+            - link "📅 Marcar consulta" [ref=e28] [cursor=pointer]:
+              - /url: "#reservas"
+            - link "Ver serviços →" [ref=e29] [cursor=pointer]:
+              - /url: "#servicios"
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: ⭐
+              - generic [ref=e33]: 5.0 avaliação
+            - generic [ref=e34]:
+              - generic [ref=e35]: 🐕
+              - generic [ref=e36]: +500 animais
+            - generic [ref=e37]:
+              - generic [ref=e38]: 🏆
+              - generic [ref=e39]: 5 anos de exp.
+        - generic [ref=e40]:
+          - generic [ref=e43]: 🐶
+          - generic: ✨
+          - generic: ⭐
+          - generic: ✨
+          - generic: 🌸
+          - generic: 💫
+          - generic: 🎀
+          - generic: ⭐
+          - generic [ref=e44]:
+            - generic [ref=e45]: ✂️
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: Serviço completo
+              - paragraph [ref=e48]: Banho + Corte + Higiene
+          - generic [ref=e49]:
+            - paragraph [ref=e50]: Avaliação
+            - generic [ref=e51]:
+              - generic [ref=e52]: ★
+              - generic [ref=e53]: ★
+              - generic [ref=e54]: ★
+              - generic [ref=e55]: ★
+              - generic [ref=e56]: ★
+              - generic [ref=e57]: "5.0"
+      - generic:
+        - img
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: ✨ Os Nossos Serviços
+        - heading "Cuidado completo para o seu animal" [level=2] [ref=e62]
+        - paragraph [ref=e63]: Cada serviço está pensado para que o seu peludo saia feliz, limpo e mais bonito do que nunca.
+      - generic [ref=e64]:
+        - generic [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: 🛁
+            - generic [ref=e68]: Banho & Brilho
+          - paragraph [ref=e69]: Banho com produtos premium, massagem relaxante e enxaguamento perfeito.
+        - generic [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: 💨
+            - generic [ref=e73]: Secagem Perfeita
+          - paragraph [ref=e74]: Secagem profissional com escovagem suave, deixando o pelo fofinho.
+        - generic [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: ✂️
+            - generic [ref=e78]: Corte Estilizado
+          - paragraph [ref=e79]: Corte ao seu gosto com estilistas especializados em cada raça.
+        - generic [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]:
+            - generic [ref=e82]: 🐾
+            - generic [ref=e83]: Higiene Integral
+          - paragraph [ref=e84]: Limpeza de ouvidos, corte de unhas e cuidado bucal incluídos.
+      - link "🐶 Reservar o serviço completo" [ref=e86] [cursor=pointer]:
+        - /url: "#reservas"
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]: 🐶 Quem somos
+        - heading "Uma família que ama os seus animais" [level=2] [ref=e91]
+        - paragraph [ref=e92]: Somos uma equipa de estilistas apaixonados pelo bem-estar animal. Cada visita é uma experiência de cuidado, carinho e profissionalismo para o seu companheiro peludo.
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: 🐩
+            - paragraph [ref=e97]: A sua foto pode estar aqui!
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: Estilistas
+              - paragraph [ref=e100]: Com ❤️ para eles
+            - generic [ref=e101]:
+              - paragraph [ref=e102]: Desde
+              - paragraph [ref=e103]: 2020 🏡
+          - generic [ref=e104]: 🐾
+          - generic [ref=e105]: 🐾
+          - generic [ref=e106]: 🐾
+        - generic [ref=e107]:
+          - paragraph [ref=e108]:
+            - text: "Nascemos em 2020 com uma missão simples:"
+            - strong [ref=e109]: que cada animal saia mais feliz do que entrou.
+            - text: As nossas instalações são seguras, higiénicas e pensadas para que o seu peludo se sinta confortável desde o primeiro momento.
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: 💚
+              - generic [ref=e113]:
+                - heading "Amor pelos animais" [level=4] [ref=e114]
+                - paragraph [ref=e115]: Cada animal é tratado com a mesma ternura que lhe daria em casa.
+            - generic [ref=e116]:
+              - generic [ref=e117]: 🧴
+              - generic [ref=e118]:
+                - heading "Produtos premium" [level=4] [ref=e119]
+                - paragraph [ref=e120]: Utilizamos apenas produtos hipoalergénicos e seguros para o seu peludo.
+            - generic [ref=e121]:
+              - generic [ref=e122]: 🕐
+              - generic [ref=e123]:
+                - heading "Pontualidade garantida" [level=4] [ref=e124]
+                - paragraph [ref=e125]: Respeitamos o seu tempo. A sua consulta começa à hora marcada.
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: 🐾
+          - generic [ref=e129]: "+500"
+          - generic [ref=e130]: Animais atendidos
+        - generic [ref=e131]:
+          - generic [ref=e132]: ⭐
+          - generic [ref=e133]: 5 ★
+          - generic [ref=e134]: Avaliação média
+        - generic [ref=e135]:
+          - generic [ref=e136]: 🏆
+          - generic [ref=e137]: 5 anos
+          - generic [ref=e138]: De experiência
+        - generic [ref=e139]:
+          - generic [ref=e140]: ❤️
+          - generic [ref=e141]: 100%
+          - generic [ref=e142]: Amor e dedicação
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]: 📍 Encontre-nos
+        - heading "Visite-nos quando quiser" [level=2] [ref=e147]
+        - paragraph [ref=e148]: Estamos num lugar fácil de encontrar, com estacionamento e acesso cómodo para si e para o seu animal.
+      - generic [ref=e149]:
+        - generic [ref=e151]:
+          - iframe [ref=e152]:
+            
+          - generic [ref=e153]:
+            - generic [ref=e154]: 🐾
+            - generic [ref=e155]:
+              - paragraph [ref=e156]: Estamos aqui
+              - paragraph [ref=e157]: La Patita Pet
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]: 📍
+            - generic [ref=e161]:
+              - paragraph [ref=e162]: Morada
+              - paragraph [ref=e163]: Calle
+          - generic [ref=e164]:
+            - generic [ref=e165]: 📞
+            - generic [ref=e166]:
+              - paragraph [ref=e167]: Telefone
+              - paragraph [ref=e168]: +351 300 000 000
+          - generic [ref=e169]:
+            - generic [ref=e170]: 🕐
+            - generic [ref=e171]:
+              - paragraph [ref=e172]: Horário
+              - paragraph [ref=e173]: "Seg–Sáb: 8h – 18h"
+          - generic [ref=e174]:
+            - generic [ref=e175]: 📧
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: E-mail
+              - paragraph [ref=e178]: ola@lapatitapet.com
+          - link "📅 Marcar consulta agora" [ref=e179] [cursor=pointer]:
+            - /url: "#reservas"
+  - contentinfo [ref=e180]:
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - link "🐾 La Patita Pet" [ref=e183] [cursor=pointer]:
+          - /url: "#inicio"
+          - generic [ref=e184]: 🐾
+          - generic [ref=e185]: La Patita Pet
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "Serviços" [ref=e188] [cursor=pointer]:
+              - /url: "#servicios"
+          - listitem [ref=e189]:
+            - link "Reservas" [ref=e190] [cursor=pointer]:
+              - /url: "#reservas"
+          - listitem [ref=e191]:
+            - link "Sobre Nós" [ref=e192] [cursor=pointer]:
+              - /url: "#nosotros"
+          - listitem [ref=e193]:
+            - link "Contactos" [ref=e194] [cursor=pointer]:
+              - /url: "#contacto"
+        - generic [ref=e195]:
+          - link "Facebook" [ref=e196] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e197]
+          - link "Instagram" [ref=e201] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e202]
+          - link "YouTube" [ref=e206] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e207]
+      - generic [ref=e210]:
+        - paragraph [ref=e211]: © 2025 La Patita Pet. Todos os direitos reservados.
+        - paragraph [ref=e212]:
+          - text: "Creado por:"
+          - link "Alberto Prada Dev" [ref=e213] [cursor=pointer]:
+            - /url: https://albertopradadev.com
+  - button "Open Next.js Dev Tools" [ref=e219] [cursor=pointer]:
+    - img [ref=e220]
+  - alert [ref=e223]
