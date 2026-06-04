@@ -99,7 +99,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Link
-              href="#reservas"
+              href="/reservas"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-base font-800 text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
               style={{
                 background: "linear-gradient(135deg, #b5ead7 0%, #c7b8ea 100%)",

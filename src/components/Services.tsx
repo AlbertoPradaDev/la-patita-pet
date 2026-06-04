@@ -145,7 +145,7 @@ export default function Services() {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <a
-            href="#reservas"
+            href="/reservas"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-base font-800 text-white transition-all duration-300 hover:scale-105 hover:shadow-xl"
             style={{
               background: "linear-gradient(135deg, #b5ead7 0%, #c7b8ea 100%)",

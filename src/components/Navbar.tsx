@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { useRouter } from "next/navigation";
 
 const links = [
   { label: "Início", href: "#inicio" },
@@ -19,6 +20,7 @@ function smoothScrollTo(id: string) {
 }
 
 export default function Navbar() {
+  const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState("inicio");
@@ -44,11 +46,15 @@ export default function Navbar() {
   const handleNav = useCallback(
     (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
       e.preventDefault();
-      const id = href.replace("#", "");
-      smoothScrollTo(id);
       setMenuOpen(false);
+      if (href.startsWith("/")) {
+        router.push(href);
+      } else {
+        const id = href.replace("#", "");
+        smoothScrollTo(id);
+      }
     },
-    []
+    [router]
   );
 
   return (
@@ -98,7 +104,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="#reservas"
+          href="/reservas"
           onClick={(e) => handleNav(e, "#reservas")}
           className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-800 text-white
             shadow-[0_4px_15px_rgba(181,234,215,0.5)] hover:shadow-[0_6px_20px_rgba(199,184,234,0.6)]
@@ -138,7 +144,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#reservas"
+            href="/reservas"
             onClick={(e) => handleNav(e, "#reservas")}
             className="block text-center px-5 py-3 rounded-full text-white font-800 text-sm shadow-lg hover:scale-105 transition-transform duration-200"
             style={{ background: "linear-gradient(135deg, #b5ead7, #c7b8ea)" }}

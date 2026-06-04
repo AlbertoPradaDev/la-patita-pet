@@ -157,7 +157,7 @@ export default function MapSection() {
 
             {/* CTA card */}
             <motion.a
-              href="#reservas"
+              href="/reservas"
               className="mt-2 flex items-center justify-center gap-2 p-5 rounded-2xl text-white font-800 text-base hover:scale-[1.02] transition-all duration-300"
               style={{
                 background: "linear-gradient(135deg, #b5ead7 0%, #c7b8ea 100%)",
