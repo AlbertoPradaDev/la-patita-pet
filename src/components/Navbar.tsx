@@ -105,7 +105,7 @@ export default function Navbar() {
         {/* CTA */}
         <a
           href="/reservas"
-          onClick={(e) => handleNav(e, "#reservas")}
+          onClick={(e) => handleNav(e, "/reservas")}
           className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-800 text-white
             shadow-[0_4px_15px_rgba(181,234,215,0.5)] hover:shadow-[0_6px_20px_rgba(199,184,234,0.6)]
             hover:scale-105 transition-all duration-300"

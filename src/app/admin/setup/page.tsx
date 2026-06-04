@@ -14,10 +14,12 @@ export default function SetupPage() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    isAdminConfigured().then((configurado) => {
-      if (configurado) router.replace("/admin");
-      else setVerificando(false);
-    });
+    isAdminConfigured()
+      .then((configurado) => {
+        if (configurado) router.replace("/admin");
+        else setVerificando(false);
+      })
+      .catch(() => setVerificando(false));
   }, [router]);
 
   const handleSubmit = async (e: React.FormEvent) => {

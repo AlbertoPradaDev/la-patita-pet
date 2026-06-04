@@ -37,6 +37,21 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+/* Cursor pointer en todos los elementos interactivos */
+a,
+button,
+select,
+label[for],
+[role="button"],
+[role="tab"],
+[role="option"],
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
 /* ── Animations ── */
 @keyframes float {
   0%, 100% { transform: translateY(0px) rotate(0deg); }

@@ -18,10 +18,12 @@ export default function AdminLoginPage() {
       router.replace("/admin/dashboard");
       return;
     }
-    isAdminConfigured().then((configurado) => {
-      if (!configurado) router.replace("/admin/setup");
-      else setVerificando(false);
-    });
+    isAdminConfigured()
+      .then((configurado) => {
+        if (!configurado) router.replace("/admin/setup");
+        else setVerificando(false);
+      })
+      .catch(() => setVerificando(false));
   }, [router]);
 
   const handleSubmit = async (e: React.FormEvent) => {
