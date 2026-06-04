@@ -581,8 +581,8 @@ export default function DashboardPage() {
                 {DIAS_SEMANA.map((d,i) => <option key={d} value={d}>{DIAS_SEMANA_PT[i]}</option>)}
               </select>
               <div className="grid grid-cols-2 gap-3">
-                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Início</label><input required type="time" className={inputCls} value={novoHor.horaInicio} onChange={e => setNovoHor({...novoHor,horaInicio:e.target.value})}/></div>
-                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Fim</label><input required type="time" className={inputCls} value={novoHor.horaFin} onChange={e => setNovoHor({...novoHor,horaFin:e.target.value})}/></div>
+                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Início</label><input required type="time" step={600} className={inputCls} value={novoHor.horaInicio} onChange={e => setNovoHor({...novoHor,horaInicio:e.target.value})}/></div>
+                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Fim</label><input required type="time" step={600} className={inputCls} value={novoHor.horaFin} onChange={e => setNovoHor({...novoHor,horaFin:e.target.value})}/></div>
               </div>
               <Btn type="submit" className="w-full">➕ Adicionar horário →</Btn>
             </form>
@@ -616,8 +616,8 @@ export default function DashboardPage() {
                 {DIAS_SEMANA.map((d,i) => <option key={d} value={d}>{DIAS_SEMANA_PT[i]}</option>)}
               </select>
               <div className="grid grid-cols-2 gap-3">
-                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Início</label><input required type="time" className={inputCls} value={novaPausa.horaInicio} onChange={e => setNovaPausa({...novaPausa,horaInicio:e.target.value})}/></div>
-                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Fim</label><input required type="time" className={inputCls} value={novaPausa.horaFin} onChange={e => setNovaPausa({...novaPausa,horaFin:e.target.value})}/></div>
+                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Início</label><input required type="time" step={600} className={inputCls} value={novaPausa.horaInicio} onChange={e => setNovaPausa({...novaPausa,horaInicio:e.target.value})}/></div>
+                <div><label className="text-xs text-gray-400 font-600 mb-1 block">Fim</label><input required type="time" step={600} className={inputCls} value={novaPausa.horaFin} onChange={e => setNovaPausa({...novaPausa,horaFin:e.target.value})}/></div>
               </div>
               <p className="text-xs text-gray-400 font-500">A pausa deve estar dentro do horário do dia selecionado.</p>
               <Btn type="submit" className="w-full">➕ Adicionar pausa →</Btn>
