@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 const floatingElements = [
@@ -149,11 +150,14 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            {/* Dog placeholder — swap with next/image when you add /public/hero-dog.jpg */}
             <div className="flex flex-col items-center justify-center h-full w-full">
-              <span className="text-[180px] leading-none select-none" style={{ marginBottom: "-20px" }}>
-                🐶
-              </span>
+              <Image
+                src="/hero.png"
+                alt="Hero dog"
+                fill
+                className="object-cover object-center"
+                priority
+              />
             </div>
           </motion.div>
 

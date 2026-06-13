@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, type Variants } from "framer-motion";
+import Image from "next/image";
 
 const stats = [
   { value: "+500", label: "Animais atendidos", emoji: "🐾" },
@@ -114,10 +115,12 @@ export default function About() {
                 boxShadow: "0 20px 60px rgba(199,184,234,0.35)",
               }}
             >
-              <span className="text-[140px] leading-none select-none">🐩</span>
-              <p className="text-base font-700 text-gray-500 mt-4">
-                A sua foto pode estar aqui!
-              </p>
+              <Image
+                src="/gallery.png"
+                alt="Gallery"
+                fill
+                className="object-cover object-center"
+              />
 
               {/* Floating badge */}
               <motion.div
